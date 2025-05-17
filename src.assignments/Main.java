@@ -1,4 +1,5 @@
 import atmSystem.AtmSystem;
+import parkingSystem.ParkingSystemFees;
 import ticketTrainbookingSystem.TrainTicketBookingSystem;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -12,6 +13,9 @@ public class Main {
 
         AtmSystem atmSystem = new AtmSystem();
         atmSystem.calculate();
+
+        ParkingSystemFees parkingSystemFees = new ParkingSystemFees();
+        parkingSystemFees.publicSystem();
 
     }
 }
